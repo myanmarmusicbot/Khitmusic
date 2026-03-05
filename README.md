@@ -370,7 +370,7 @@ To get an instant result do /reboot in chat of logger .
 
 ## ㅤ
 <br>
-<img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by-Stark-red?style=for-the-badge&logo=heart" alt="Made with love">
+<img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by-KhitHlainHtet-red?style=for-the-badge&logo=heart" alt="Made with love">
 
 ㅤ
 
@@ -395,7 +395,7 @@ To get an instant result do /reboot in chat of logger .
 </div>
 
 
-- [Stark](https://github.com/khithlainhtet)
+- [KhitHlainHtet](https://github.com/khithlainhtet)
 - [Telegram](https://t.me/HANTHAR999)
 - Everyone In This Journey !
 
