@@ -22,7 +22,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME")
 BOT_USERNAME = getenv("BOT_USERNAME")
 BOT_NAME = getenv("BOT_NAME")
 ASSUSERNAME = getenv("ASSUSERNAME", "KhitAassistant")
-MUST_JOIN = getenv("MUST_JOIN", "khithlainhtetz")
+MUST_JOIN = getenv("MUST_JOIN", "myanmar_music_Bot2027")
 BASE_URL = "https://api.waifu.pics"
 
 # MongoDB
