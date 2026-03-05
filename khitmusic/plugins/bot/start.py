@@ -88,7 +88,7 @@ async def start_pm(client, message: Message, _):
     await client.send_chat_action(message.chat.id, ChatAction.TYPING)
 
     # 4. Layer 2: Separate "Starting" Message
-    _text = "𝐻𝑖𝑒𝑒 𝐶𝑢𝑡𝑖𝑒𝑒"
+    _text = "𝑯𝑬𝑳𝑳𝑶 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑴𝒀 𝑭𝑹𝑰𝑬𝑵𝑫𝑺"
     starting_msg = await message.reply_text(f"**__{_text[0]}__**")
     for i in range(1, len(_text)):
         try:
