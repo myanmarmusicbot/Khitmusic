@@ -12,7 +12,7 @@
 # ❤️ Made with dedication and love by khithlainhtet# -----------------------------------------------
 from pyrogram import Client
 import config
-form strings.__init__ import LOGGERS
+from strings.__init__ import LOGGERS
 from ..logging import LOGGER
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
