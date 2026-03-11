@@ -30,47 +30,29 @@ from config import BANNED_USERS
 
 # Assets 
 STICKER = [
-    "CAACAgUAAyEFAATLpp90AAIIQ2mUPNfbWXFWRuucd_63T1MgVNwmAAKUHwACUVVxVGXlDGD7bgkQHgQ",
-    "CAACAgUAAyEFAATLpp90AAIIPmmUPMujR4HwUMWrD3xhkZs7gMeHAAJgHQACNIVoVHGcFfV71i1vHgQ",
-    "CAACAgUAAyEFAATLpp90AAIIOGmUPLxrVlcgqQrAeyi-5pK_pPnxAAKBJAAClMhwVBJtaDyzdAIiHgQ",
-    "CAACAgUAAyEFAATLpp90AAIIMmmUPLHCy3ostmT85kLCT9J6ZwABOAAC_R8AArtGcVSfs0APE3s1oR4E",
-    "CAACAgUAAyEFAATLpp90AAIILGmUPJplxG0P8qJsIX7IhilnwJ8HAAJVGwACVAtwVIghmE8KzvzaHgQ",
-    "CAACAgUAAyEFAATLpp90AAIIJ2mUPIYjfdeSwS_d4of_uiAD0PulAAL_GwACXWfxV6KJhqCSMjtiHgQ",
-    "CAACAgUAAyEFAATLpp90AAIIIWmUPHamBQXx4hHv2krzhkSYYhiUAALyGwACG7P4V6lu6AUEtKS0HgQ",
-    "CAACAgUAAyEFAATLpp90AAIIHGmUPGp9yYSZ1KvI72hMSPBAql9xAAK2JQAC85XwVyydHJRn4fIhHgQ",
-    "CAACAgUAAyEFAATLpp90AAIISGmUPUV8Ksit3n6W8bU3fI6qA4HoAAJeIQACtiRwVNiwkm5CwE5GHgQ",
-    "CAACAgUAAyEFAATLpp90AAIISGmUPUUrqE8zvp7oVqQibL0JIjrdAAJeIQACtiRwVNiwkm5CwE5GHgQ",
+    "CAACAgUAAxkBAAIgT2mwz8HcjYCVwtsDNf4gYRgFNtNVAAKzFwACGbigVSI-1-HziJBxHgQ",
+    "CAACAgUAAxkBAAIgUmmwz9e2qCZpOEKEhAh-weLRU2joAALqGQACWZuhVcUGAq-mjrZ3HgQ",
+    "CAACAgUAAxkBAAIgVWmwz-EMG84rIbbEzBPDvAy9dDAZAALgIAACirShVR_C-W73Og5YHgQ",
+    "CAACAgUAAxkBAAIgWGmwz-9QsQnLOtXe7nnzxQ8FtfHxAAJPGQAC7QygVUPT1Ti2P22ZHgQ",
+    "CAACAgUAAxkBAAIgW2mwz_shhAKFmAqkSJsAAakUF69vmgACzhkAAvmSoVWClmzB9TDz6R4E",
+    "CAACAgUAAxkBAAIgYGmw0Akd2Lxe0oqXaj4G6_msDr12AAKWHAACxiegVfUf9hwPjXqgHgQ",
+    "CAACAgUAAxkBAAIgY2mw0BwHN_TgdabNkT9_ld_D1h4EAAJ4GQACMQABoFVDxuEcxR1CQh4E",
+    "CAACAgUAAxkBAAIgZmmw0Cl7waUBN-nHS7nvJCyKU7hUAAIZGwAC1TmgVSBQbkNGcGBSHgQ",
+    "CAACAgUAAxkBAAIgaWmw0DQZRj1yPlrpMHOjQbsJwZSgAALgGQACfA2YVRl1rlBfNwT5HgQ",
+    "CAACAgUAAxkBAAIgbGmw0FOivFrv8TcywwlFB2cygbbpAAJsHQACRvWgVVc0bfwhNM8dHgQ",
 ]
 
 EMOJIOS = ["❤️", "😁", "👀", "⚡️", "🕊", "❤️‍🔥", "💅", "👻",]
 
 STARK_IMG = [
-    "https://files.catbox.moe/k43ugw.jpg",
-    "https://files.catbox.moe/9soc53.jpg",
-    "https://files.catbox.moe/k8vvww.jpg",
-    "https://files.catbox.moe/bag4i1.jpg",
-    "https://files.catbox.moe/by685a.jpg",
-    "https://files.catbox.moe/f7xoqs.jpg",
-    "https://files.catbox.moe/5wqxf5.jpg",
-    "https://files.catbox.moe/431fr0.jpg",
-    "https://files.catbox.moe/ue0jdr.jpg",
-    "https://files.catbox.moe/w3ul6m.jpg",
-    "https://files.catbox.moe/tb5lbj.jpg",
-    "https://files.catbox.moe/gntxjn.jpg",
-    "https://files.catbox.moe/c6msne.jpg",
-    "https://files.catbox.moe/pivnj5.jpg",
-    "https://files.catbox.moe/zvl3zg.jpg",
-    "https://files.catbox.moe/geb29n.jpg",
-    "https://files.catbox.moe/59i2eq.jpg",
-    "https://files.catbox.moe/98frng.jpg",
-    "https://files.catbox.moe/cdsc73.jpg",
-    "https://files.catbox.moe/fhyuem.jpg",
-    "https://files.catbox.moe/4wdkm1.jpg",
-    "https://files.catbox.moe/083llp.jpg",
-    "https://files.catbox.moe/8h4rha.jpg",
-    "https://files.catbox.moe/7bckxd.jpg",
-    "https://graph.org/file/6603c3740378d3f7187da.jpg",
-    "https://files.catbox.moe/3sbjl5.jpg"
+    "https://files.catbox.moe/lsbtud.jpg",
+    "https://files.catbox.moe/stqxy1.jpg",
+    "https://files.catbox.moe/wz4ndo.jpg",
+    "https://files.catbox.moe/02yas7.jpg",
+    "https://files.catbox.moe/9qi4ot.jpg",
+    "https://files.catbox.moe/e813zc.jpg",
+    "https://files.catbox.moe/cdc5cz.jpg",
+    "https://files.catbox.moe/83zj85.jpg"
 ]
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
